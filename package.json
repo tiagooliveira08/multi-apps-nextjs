@@ -6,7 +6,6 @@
     "dev": "vercel dev"
   },
   "devDependencies": {
-    "@types/react": "^16.9.49",
     "vercel": "^20.1.0"
   },
   "dependencies": {
