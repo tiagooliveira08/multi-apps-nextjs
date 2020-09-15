@@ -1,13 +1,21 @@
-export default function magazine() {
+import Link from "next/link";
+
+export default function buy() {
   return (
     <div>
-      {" "}
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/HQn-H9daHwo"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      ></iframe>
+      <h4>Revista</h4>
+      <ul>
+        <li>
+          <Link href="/home" passHref>
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/buy" passHref>
+            <a>Modulo de compra</a>
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }

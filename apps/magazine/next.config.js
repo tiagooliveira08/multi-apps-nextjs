@@ -1,4 +1,4 @@
-const assetPrefix = process.env.BUILDING_FOR_NOW ? "/magazine" : "";
+const assetPrefix = process.env.BUILDING_FOR_NOW ? "/apps/magazine" : "";
 
 module.exports = {
   assetPrefix,
