@@ -5,15 +5,16 @@
       "BUILDING_FOR_NOW": "true"
     }
   },
+  "cleanUrls": true,
   "builds": [
     { "src": "apps/buy/package.json", "use": "@now/next" },
     { "src": "apps/magazine/package.json", "use": "@now/next" },
     { "src": "apps/home/package.json", "use": "@now/next" }
   ],
   "rewrites": [
-    { "source": "/magazine(.*)", "destination": "/apps/magazine" },
-    { "source": "/buy(.*)", "destination": "/apps/buy" },
-    { "source": "/home(.*)", "destination": "/apps/home" },
-    { "source": "/", "destination": "/apps/home" }
+    { "source": "/magazine(.*)", "destination": "/apps/magazine/" },
+    { "source": "/buy(.*)", "destination": "/apps/buy/" },
+    { "source": "/home(.*)", "destination": "/apps/home/" },
+    { "source": "/", "destination": "/apps/home/" }
   ]
 }
