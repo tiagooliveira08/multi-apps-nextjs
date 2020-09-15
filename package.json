@@ -1,5 +1,17 @@
 {
   "name": "with-zones",
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "vercel": "^20.1.0"
+  },
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
